@@ -1,8 +1,9 @@
+import Counter1 from "./Components/Counter1";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <Counter1 />
     </div>
   );
 }
