@@ -1,10 +1,15 @@
+import Hero from "./Hero";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <Hero HeroName="Batman"></Hero>
+      <Hero HeroName="Superman"></Hero>
+      <Hero HeroName="Joker"></Hero>
     </div>
   );
+
+
 }
 
 export default App;
