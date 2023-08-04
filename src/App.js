@@ -11,7 +11,7 @@ function App() {
         <Hero HeroName="Superman"></Hero>
       </ErrorBoundary>
       <ErrorBoundary>
-        <Hero HeroName="joker"></Hero>
+        {/* <Hero HeroName="joker"></Hero> */}
       </ErrorBoundary>
     </div>
   );
